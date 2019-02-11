@@ -54,7 +54,7 @@
 .\objects\main.o: .\DEVICE\gpio.h
 .\objects\main.o: .\DEVICE\spi.h
 .\objects\main.o: .\HARDWARE\oled.h
-.\objects\main.o: .\USERLIB\fifo.h
+.\objects\main.o: .\CPP\oled.hpp
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\main.o: .\USERLIB\menu.h

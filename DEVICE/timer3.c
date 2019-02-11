@@ -23,9 +23,12 @@ void InitTimer3NVIC(void)
 	NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;
 	NVIC_InitStructure.NVIC_IRQChannelCmd=ENABLE;
 	NVIC_Init(&NVIC_InitStructure);
+	TIM_ITConfig(TIM3,TIM_IT_Update,ENABLE);
 }
 
 extern u8 flag;
+
+extern void ControlTask(void);
 
 void TIM3_IRQHandler(void)  
 {

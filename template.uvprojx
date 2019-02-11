@@ -224,7 +224,7 @@
             <hadIRAM2>1</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
-            <useUlib>0</useUlib>
+            <useUlib>1</useUlib>
             <EndSel>0</EndSel>
             <uLtcg>0</uLtcg>
             <RoSelD>3</RoSelD>
@@ -362,10 +362,10 @@
             <uC99>0</uC99>
             <useXO>0</useXO>
             <VariousControls>
-              <MiscControls></MiscControls>
+              <MiscControls>--cpp11</MiscControls>
               <Define>STM32F427_437xx,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>.\CMISS;.\FWLIB\inc;.\USER;.\DEVICE;.\USER\delay;.\USER\sys;.\USERLIB;.\HARDWARE</IncludePath>
+              <IncludePath>.\CMISS;.\FWLIB\inc;.\USER;.\DEVICE;.\USER\delay;.\USER\sys;.\USERLIB;.\HARDWARE;.\CPP</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -427,6 +427,11 @@
               <FileName>sys.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\USER\sys\sys.c</FilePath>
+            </File>
+            <File>
+              <FileName>main.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\CPP\main.cpp</FilePath>
             </File>
           </Files>
         </Group>
@@ -646,6 +651,31 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>CPP</GroupName>
+          <Files>
+            <File>
+              <FileName>oled.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\CPP\oled.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>VerticalLayout.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\CPP\VerticalLayout.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>menu2.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\CPP\menu2.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>control_task.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\HARDWARE\control_task.cpp</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>DEVICE</GroupName>
           <Files>
             <File>
@@ -708,11 +738,6 @@
               <FileType>1</FileType>
               <FilePath>.\USERLIB\fifo.c</FilePath>
             </File>
-            <File>
-              <FileName>menu.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\USERLIB\menu.c</FilePath>
-            </File>
           </Files>
         </Group>
         <Group>
@@ -727,11 +752,6 @@
               <FileName>gimbal.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\HARDWARE\gimbal.c</FilePath>
-            </File>
-            <File>
-              <FileName>control_task.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\HARDWARE\control_task.c</FilePath>
             </File>
             <File>
               <FileName>judge_system.c</FileName>
