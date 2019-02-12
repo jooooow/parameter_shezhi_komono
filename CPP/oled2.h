@@ -13,6 +13,8 @@ private:
 	u8 width;
   u8 layout_left_x;
 	u8 layout_right_x;
+
+public:
 	VerticalLayout* layout_left;
 	VerticalLayout* layout_right;
 
@@ -39,6 +41,8 @@ public:
 
 	void ClearRight();
 	void ClearLeft();
+	
+	u8 GetMaxLayoutHeight();
 
 private:
 	void InitGpio();

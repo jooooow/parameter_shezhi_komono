@@ -77,20 +77,10 @@ void VerticalLayout::Clear()
 char* VerticalLayout::GetFormatString(const char* str, char blank)
 {
 	u8 len = strlen(str);
-	char* p;
-	if(len > width)
-	{
-		p = new char[width];
-		memcpy(p,str,width);
-		p[width] = '\0';
-	}
-	else
-	{
-		p = new char[width];
-		memcpy(p,str,len);
-		memset(p+len,blank,width - len);
-		p[width] = '\0';
-	}
-	
+	char* p = new char[width];
+	memcpy(p,str,(len > width ? width : len));
+	if(len <= width)
+		memset(p + len,blank,width - len);
+	p[width] = '\0';
 	return p;
 }

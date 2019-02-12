@@ -32,13 +32,14 @@ extern MenuNode_t gs_para;
 
 int main()
 {
-	menu_ptr = new Menu();
 	
 	/*初始化*/
 	Init();
 	
 	/*初始化oled*/
 	oled_ptr = new Oled(128,64);
+	
+	menu_ptr = new Menu(oled_ptr);
 	
 	/*等待选择模式*/
 	komono_mode = WaitToGetMode();
@@ -64,7 +65,7 @@ int main()
 	oled_ptr->Push2Left(bl_para.name,1);
 	oled_ptr->Push2Left(gs_para.name,1);
 	oled_ptr->ShowChar(0,0,'>');
-	menu_ptr->ShowChildren(oled_ptr);
+	menu_ptr->ShowChildren();
 	
 	oled_ptr->Update();
 	

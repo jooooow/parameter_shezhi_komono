@@ -362,3 +362,10 @@ void Oled::ClearLeft()
 		ShowString(layout_left_x,i,"       ");
 	layout_left->Clear();
 }
+
+u8 Oled::GetMaxLayoutHeight()
+{
+	u8 h_l = layout_left->GetMaxHeight();
+	u8 h_r = layout_right->GetMaxHeight();
+	return (h_l >= h_r ? h_l : h_r);
+}

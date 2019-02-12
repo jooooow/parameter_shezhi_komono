@@ -5,6 +5,7 @@
 #include "string.h"
 #include "oled2.h"
 #include <string>
+#include <sstream>
 
 typedef struct _MenuNodeValue_t
 {
@@ -19,6 +20,18 @@ typedef struct _MenuNodeValue_t
 			u_16 = (u16)val;
 		else if(tp == FLOAT)
 			f = val;
+		
+		type = tp;
+	}
+	void Add(float v)
+	{
+		switch(type)
+		{
+			case UCHAR:u_8 += (u8)v;break;
+			case USHORT:u_16 += (u16)v;break;
+			case FLOAT:f += v;break;
+			default:break;
+		}
 	}
 		
 	u8    u_8;
@@ -60,18 +73,21 @@ class Menu
 	
 public:
 	enum Key{UP,DOWN,LEFT,RIGHT,KAKUNIN,UNKNOWN};
-	Menu();
+	Menu(Oled* o);
 	~Menu(){};
 	void Move(u8 pushed_key = UNKNOWN);
 		
 	MenuNode_t* GetCurNode(){return cur_node;}
-	void ShowNexts(Oled* oled);
-	void ShowChildren(Oled* oled);
+	void ShowNexts();
+	void ShowChildren();
+	void ShowValue();
+	void UpdateCurPath();
 	
 private:
 	MenuNode_t* cur_node;
 	std::string cur_path;
 	short cur_cursor_row;
+	Oled* oled;
 
 private:
 	void Left();
@@ -79,9 +95,6 @@ private:
 	void Up();
 	void Down();
 	void Kakunin();
-
-	void UpdateChildren();
-	void UpdateAll();
 	void MoveCursor(short row);
 };
 
