@@ -1,5 +1,5 @@
-.\objects\oled.o: CPP\oled.cpp
-.\objects\oled.o: CPP\oled2.h
+.\objects\oled.o: DEVICE\oled.cpp
+.\objects\oled.o: DEVICE\oled2.h
 .\objects\oled.o: .\USER\sys\sys.h
 .\objects\oled.o: .\CMISS\stm32f4xx.h
 .\objects\oled.o: .\CMISS\core_cm4.h
@@ -65,10 +65,10 @@
 .\objects\oled.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rw/_dispatch.h
 .\objects\oled.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rw/_iterator.h
 .\objects\oled.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rw/_error.h
-.\objects\oled.o: CPP\VerticalLayout.h
+.\objects\oled.o: .\USER\VerticalLayout.h
 .\objects\oled.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\oled.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\oled.o: .\DEVICE\usart3.h
-.\objects\oled.o: .\DEVICE\spi.h
+.\objects\oled.o: DEVICE\usart3.h
+.\objects\oled.o: DEVICE\spi.h
 .\objects\oled.o: .\USER\delay\delay.h
 .\objects\oled.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\deque.CC

@@ -10,6 +10,7 @@ extern "C"
 #include "usart3.h"
 #include "stdio.h"
 #include "gpio.h"
+#include "timer3.h"
 }
 
 #define MODE_SET   0

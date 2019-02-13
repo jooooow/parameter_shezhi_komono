@@ -1,65 +1,5 @@
 Dependencies for Project 'template', Target 'Target 1': (DO NOT MODIFY !)
-F (.\USER\main.c)(0x5C601235)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (USER\includes.h)(0x5C0B652C)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-I (.\USER\sys\sys.h)(0x55CC1472)
-I (.\DEVICE\led.h)(0x5BA9EC55)
-I (.\USER\delay\delay.h)(0x5A993E74)
-I (.\DEVICE\timer3.h)(0x5BA9F352)
-I (.\DEVICE\usart3.h)(0x5C52A584)
-I (.\DEVICE\usart6.h)(0x5BB079FE)
-I (.\USERLIB\DJ_Protocol.h)(0x5BAC90A9)
-I (.\DEVICE\can.h)(0x5BB09A77)
-I (.\USER\includes.h)(0x5C0B652C)
-I (.\HARDWARE\chassis.h)(0x5BB079D3)
-I (.\HARDWARE\gimbal.h)(0x5BB07C3F)
-I (.\HARDWARE\judge_system.h)(0x5BB079FE)
-I (.\HARDWARE\control_task.h)(0x5C617F0E)
-I (.\USERLIB\pid.h)(0x5BB08EDE)
-I (.\DEVICE\gpio.h)(0x5C530C73)
-I (.\DEVICE\spi.h)(0x5C527C81)
-I (.\HARDWARE\oled.h)(0x5C55AADB)
-I (.\CPP\oled.hpp)(0x5C601597)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (.\USERLIB\menu.h)(0x5C55AC3A)
-F (.\USER\includes.h)(0x5C0B652C)()
-F (.\USER\delay\delay.c)(0x5A993E60)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+F (.\USER\delay\delay.c)(0x5A993E60)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys --cpp11-I F:\Git\repo\parameter_shezhi_komono\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
 I (USER\delay\delay.h)(0x5A993E74)
 I (.\USER\sys\sys.h)(0x55CC1472)
 I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
@@ -98,7 +38,7 @@ I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\USER\sys\sys.c)(0x53B52F54)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+F (.\USER\sys\sys.c)(0x53B52F54)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys --cpp11-I F:\Git\repo\parameter_shezhi_komono\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
 I (USER\sys\sys.h)(0x55CC1472)
 I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
 I (.\CMISS\core_cm4.h)(0x53C7D532)
@@ -136,8 +76,114 @@ I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\CPP\main.cpp)(0x5C62D9FF)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER-o .\objects\main_1.o --omf_browse .\objects\main_1.crf --depend .\objects\main_1.d)
-I (CPP\oled2.h)(0x5C641C6A)
+F (.\USER\control_task.cpp)(0x5C643A3F)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys --cpp11-I F:\Git\repo\parameter_shezhi_komono\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER-o .\objects\control_task.o --omf_browse .\objects\control_task.crf --depend .\objects\control_task.d)
+I (USER\control_task.h)(0x5C6439DC)
+I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
+I (.\CMISS\core_cm4.h)(0x53C7D532)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\CMISS\core_cmInstr.h)(0x53C7D532)
+I (.\CMISS\core_cmFunc.h)(0x53C7D532)
+I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
+I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
+I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
+I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
+I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
+I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
+I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
+I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
+I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
+I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
+I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
+I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
+I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
+I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
+I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
+I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
+I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
+I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
+I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
+I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
+I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
+I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
+I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
+I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
+I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
+I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
+I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
+I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
+I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
+I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
+I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (.\DEVICE\spi.h)(0x5C527C81)
+I (.\USER\sys\sys.h)(0x55CC1472)
+I (USER\menu2.h)(0x5C6430D6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\DEVICE\oled2.h)(0x5C641C6A)
+I (C:\Keil_v5\ARM\ARMCC\include\deque)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\limits)(0x51403754)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_defs.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_config.h)(0x53D8D068)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\config.h)(0x53105A3C)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_math.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\cmath)(0x5475F2FE)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (C:\Keil_v5\ARM\ARMCC\include\cfloat)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\climits)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\Keil_v5\ARM\ARMCC\include\memory)(0x4F313782)
+I (C:\Keil_v5\ARM\ARMCC\include\new)(0x5475F2FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\exception)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\utility)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_iterbase.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\cstddef)(0x5475F2EE)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_mutex.h)(0x4EB1AAE4)
+I (C:\Keil_v5\ARM\ARMCC\include\cstring)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_algobase.h)(0x4EB1AAE4)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_dispatch.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_iterator.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_error.h)(0x4EB1AAE6)
+I (.\USER\VerticalLayout.h)(0x5C62DFEC)
+I (C:\Keil_v5\ARM\ARMCC\include\string)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\iosfwd)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\cwchar)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\wchar.h)(0x5475F2FE)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_strref.h)(0x4EB1AAE4)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_traits.h)(0x4EB1AAE4)
+I (C:\Keil_v5\ARM\ARMCC\include\cstdio)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\sstream)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\istream)(0x53D8D068)
+I (C:\Keil_v5\ARM\ARMCC\include\ostream)(0x53D8D068)
+I (C:\Keil_v5\ARM\ARMCC\include\ios)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\streambuf)(0x4EB1AAE4)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_iosbase.h)(0x5399CA58)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_locale.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_locimp.h)(0x4EB1AAE4)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_locvector.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctime)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\clocale)(0x5475F2FA)
+I (C:\Keil_v5\ARM\ARMCC\include\locale.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_exception.h)(0x4EB1AAE4)
+I (C:\Keil_v5\ARM\ARMCC\include\cstdarg)(0x5475F2FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\Keil_v5\ARM\ARMCC\include\cstdlib)(0x5475F2FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_ctype.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_ioiter.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_numeric.h)(0x53D8D068)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_punct.h)(0x53D8D068)
+I (.\DEVICE\gpio.h)(0x5C643980)
+I (C:\Keil_v5\ARM\ARMCC\include\deque.CC)(0x4EB1AAE4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.CC)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_punct.CC)(0x53D8D068)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_numeric.CC)(0x53D8D068)
+I (C:\Keil_v5\ARM\ARMCC\include\ios.CC)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\ostream.CC)(0x4EB1AAE6)
+F (.\USER\main.cpp)(0x5C643A04)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys --cpp11-I F:\Git\repo\parameter_shezhi_komono\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\DEVICE\oled2.h)(0x5C641C6A)
 I (.\USER\sys\sys.h)(0x55CC1472)
 I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
 I (.\CMISS\core_cm4.h)(0x53C7D532)
@@ -202,8 +248,8 @@ I (C:\Keil_v5\ARM\ARMCC\include\rw\_algobase.h)(0x4EB1AAE4)
 I (C:\Keil_v5\ARM\ARMCC\include\rw\_dispatch.h)(0x4EB1AAE6)
 I (C:\Keil_v5\ARM\ARMCC\include\rw\_iterator.h)(0x4EB1AAE6)
 I (C:\Keil_v5\ARM\ARMCC\include\rw\_error.h)(0x4EB1AAE6)
-I (CPP\VerticalLayout.h)(0x5C62DFEC)
-I (CPP\menu2.h)(0x5C6430D6)
+I (.\USER\VerticalLayout.h)(0x5C62DFEC)
+I (USER\menu2.h)(0x5C6430D6)
 I (C:\Keil_v5\ARM\ARMCC\include\string)(0x4EB1AAE6)
 I (C:\Keil_v5\ARM\ARMCC\include\iosfwd)(0x4EB1AAE6)
 I (C:\Keil_v5\ARM\ARMCC\include\cwchar)(0x5475F300)
@@ -235,581 +281,17 @@ I (C:\Keil_v5\ARM\ARMCC\include\rw\_numeric.h)(0x53D8D068)
 I (C:\Keil_v5\ARM\ARMCC\include\rw\_punct.h)(0x53D8D068)
 I (.\USER\delay\delay.h)(0x5A993E74)
 I (.\DEVICE\usart3.h)(0x5C52A584)
-I (.\DEVICE\gpio.h)(0x5C530C73)
-I (.\USER\includes.h)(0x5C0B652C)
-I (.\DEVICE\led.h)(0x5BA9EC55)
+I (.\DEVICE\gpio.h)(0x5C643980)
 I (.\DEVICE\timer3.h)(0x5BA9F352)
-I (.\DEVICE\usart6.h)(0x5BB079FE)
-I (.\USERLIB\DJ_Protocol.h)(0x5BAC90A9)
-I (.\DEVICE\can.h)(0x5BB09A77)
-I (.\HARDWARE\chassis.h)(0x5BB079D3)
-I (.\HARDWARE\gimbal.h)(0x5BB07C3F)
-I (.\HARDWARE\judge_system.h)(0x5BB079FE)
-I (.\HARDWARE\control_task.h)(0x5C617F0E)
-I (.\USERLIB\pid.h)(0x5BB08EDE)
 I (C:\Keil_v5\ARM\ARMCC\include\deque.CC)(0x4EB1AAE4)
 I (C:\Keil_v5\ARM\ARMCC\include\string.CC)(0x4EB1AAE6)
 I (C:\Keil_v5\ARM\ARMCC\include\rw\_punct.CC)(0x53D8D068)
 I (C:\Keil_v5\ARM\ARMCC\include\rw\_numeric.CC)(0x53D8D068)
 I (C:\Keil_v5\ARM\ARMCC\include\ios.CC)(0x4EB1AAE6)
 I (C:\Keil_v5\ARM\ARMCC\include\ostream.CC)(0x4EB1AAE6)
-F (.\FWLIB\src\misc.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_adc.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_adc.o --omf_browse .\objects\stm32f4xx_adc.crf --depend .\objects\stm32f4xx_adc.d)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_can.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_can.o --omf_browse .\objects\stm32f4xx_can.crf --depend .\objects\stm32f4xx_can.d)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_crc.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_crc.o --omf_browse .\objects\stm32f4xx_crc.crf --depend .\objects\stm32f4xx_crc.d)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_cryp.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_cryp.o --omf_browse .\objects\stm32f4xx_cryp.crf --depend .\objects\stm32f4xx_cryp.d)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_cryp_aes.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_cryp_aes.o --omf_browse .\objects\stm32f4xx_cryp_aes.crf --depend .\objects\stm32f4xx_cryp_aes.d)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_cryp_des.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_cryp_des.o --omf_browse .\objects\stm32f4xx_cryp_des.crf --depend .\objects\stm32f4xx_cryp_des.d)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_cryp_tdes.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_cryp_tdes.o --omf_browse .\objects\stm32f4xx_cryp_tdes.crf --depend .\objects\stm32f4xx_cryp_tdes.d)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_dac.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_dac.o --omf_browse .\objects\stm32f4xx_dac.crf --depend .\objects\stm32f4xx_dac.d)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_dbgmcu.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_dbgmcu.o --omf_browse .\objects\stm32f4xx_dbgmcu.crf --depend .\objects\stm32f4xx_dbgmcu.d)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_dcmi.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_dcmi.o --omf_browse .\objects\stm32f4xx_dcmi.crf --depend .\objects\stm32f4xx_dcmi.d)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_dma.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_dma.o --omf_browse .\objects\stm32f4xx_dma.crf --depend .\objects\stm32f4xx_dma.d)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_dma2d.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_dma2d.o --omf_browse .\objects\stm32f4xx_dma2d.crf --depend .\objects\stm32f4xx_dma2d.d)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_exti.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_exti.o --omf_browse .\objects\stm32f4xx_exti.crf --depend .\objects\stm32f4xx_exti.d)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_flash.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_flash.o --omf_browse .\objects\stm32f4xx_flash.crf --depend .\objects\stm32f4xx_flash.d)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_flash_ramfunc.c)(0x53DF9332)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_flash_ramfunc.o --omf_browse .\objects\stm32f4xx_flash_ramfunc.crf --depend .\objects\stm32f4xx_flash_ramfunc.d)
-I (.\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x53DF9332)
+F (.\USER\menu2.cpp)(0x5C6431CA)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys --cpp11-I F:\Git\repo\parameter_shezhi_komono\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER-o .\objects\menu2.o --omf_browse .\objects\menu2.crf --depend .\objects\menu2.d)
+I (USER\menu2.h)(0x5C6430D6)
+I (.\USER\sys\sys.h)(0x55CC1472)
 I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
 I (.\CMISS\core_cm4.h)(0x53C7D532)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -846,230 +328,73 @@ I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_gpio.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_gpio.o --omf_browse .\objects\stm32f4xx_gpio.crf --depend .\objects\stm32f4xx_gpio.d)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_hash.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_hash.o --omf_browse .\objects\stm32f4xx_hash.crf --depend .\objects\stm32f4xx_hash.d)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_hash_md5.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_hash_md5.o --omf_browse .\objects\stm32f4xx_hash_md5.crf --depend .\objects\stm32f4xx_hash_md5.d)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_hash_sha1.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_hash_sha1.o --omf_browse .\objects\stm32f4xx_hash_sha1.crf --depend .\objects\stm32f4xx_hash_sha1.d)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_i2c.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_i2c.o --omf_browse .\objects\stm32f4xx_i2c.crf --depend .\objects\stm32f4xx_i2c.d)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_iwdg.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_iwdg.o --omf_browse .\objects\stm32f4xx_iwdg.crf --depend .\objects\stm32f4xx_iwdg.d)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_ltdc.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_ltdc.o --omf_browse .\objects\stm32f4xx_ltdc.crf --depend .\objects\stm32f4xx_ltdc.d)
-I (.\FWLIB\inc\stm32f4xx_ltdc.h)(0x53DBAFAE)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (.\DEVICE\oled2.h)(0x5C641C6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\deque)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\limits)(0x51403754)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_defs.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_config.h)(0x53D8D068)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\config.h)(0x53105A3C)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_math.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\cmath)(0x5475F2FE)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (C:\Keil_v5\ARM\ARMCC\include\cfloat)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\climits)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\Keil_v5\ARM\ARMCC\include\memory)(0x4F313782)
+I (C:\Keil_v5\ARM\ARMCC\include\new)(0x5475F2FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\exception)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\utility)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_iterbase.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\cstddef)(0x5475F2EE)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_mutex.h)(0x4EB1AAE4)
+I (C:\Keil_v5\ARM\ARMCC\include\cstring)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_algobase.h)(0x4EB1AAE4)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_dispatch.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_iterator.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_error.h)(0x4EB1AAE6)
+I (.\USER\VerticalLayout.h)(0x5C62DFEC)
+I (C:\Keil_v5\ARM\ARMCC\include\string)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\iosfwd)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\cwchar)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\wchar.h)(0x5475F2FE)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_strref.h)(0x4EB1AAE4)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_traits.h)(0x4EB1AAE4)
+I (C:\Keil_v5\ARM\ARMCC\include\cstdio)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\sstream)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\istream)(0x53D8D068)
+I (C:\Keil_v5\ARM\ARMCC\include\ostream)(0x53D8D068)
+I (C:\Keil_v5\ARM\ARMCC\include\ios)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\streambuf)(0x4EB1AAE4)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_iosbase.h)(0x5399CA58)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_locale.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_locimp.h)(0x4EB1AAE4)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_locvector.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctime)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\clocale)(0x5475F2FA)
+I (C:\Keil_v5\ARM\ARMCC\include\locale.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_exception.h)(0x4EB1AAE4)
+I (C:\Keil_v5\ARM\ARMCC\include\cstdarg)(0x5475F2FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+I (C:\Keil_v5\ARM\ARMCC\include\cstdlib)(0x5475F2FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_ctype.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_ioiter.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_numeric.h)(0x53D8D068)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_punct.h)(0x53D8D068)
+I (C:\Keil_v5\ARM\ARMCC\include\deque.CC)(0x4EB1AAE4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.CC)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_punct.CC)(0x53D8D068)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_numeric.CC)(0x53D8D068)
+I (C:\Keil_v5\ARM\ARMCC\include\ios.CC)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\ostream.CC)(0x4EB1AAE6)
+F (.\USER\VerticalLayout.cpp)(0x5C62DAD1)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys --cpp11-I F:\Git\repo\parameter_shezhi_komono\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER-o .\objects\verticallayout.o --omf_browse .\objects\verticallayout.crf --depend .\objects\verticallayout.d)
+I (USER\VerticalLayout.h)(0x5C62DFEC)
+I (.\USER\sys\sys.h)(0x55CC1472)
 I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
 I (.\CMISS\core_cm4.h)(0x53C7D532)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -1106,82 +431,36 @@ I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_pwr.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_pwr.o --omf_browse .\objects\stm32f4xx_pwr.crf --depend .\objects\stm32f4xx_pwr.d)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\deque)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\limits)(0x51403754)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_defs.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_config.h)(0x53D8D068)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\config.h)(0x53105A3C)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_math.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\cmath)(0x5475F2FE)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (C:\Keil_v5\ARM\ARMCC\include\cfloat)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\climits)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\Keil_v5\ARM\ARMCC\include\memory)(0x4F313782)
+I (C:\Keil_v5\ARM\ARMCC\include\new)(0x5475F2FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\exception)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\utility)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_iterbase.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\cstddef)(0x5475F2EE)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_mutex.h)(0x4EB1AAE4)
+I (C:\Keil_v5\ARM\ARMCC\include\cstring)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_algobase.h)(0x4EB1AAE4)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_dispatch.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_iterator.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_error.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\deque.CC)(0x4EB1AAE4)
+F (.\FWLIB\src\misc.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys --cpp11-I F:\Git\repo\parameter_shezhi_komono\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
 I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_rcc.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_rcc.o --omf_browse .\objects\stm32f4xx_rcc.crf --depend .\objects\stm32f4xx_rcc.d)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_rng.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_rng.o --omf_browse .\objects\stm32f4xx_rng.crf --depend .\objects\stm32f4xx_rng.d)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
 I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
 I (.\CMISS\core_cm4.h)(0x53C7D532)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -1208,43 +487,6 @@ I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_rtc.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_rtc.o --omf_browse .\objects\stm32f4xx_rtc.crf --depend .\objects\stm32f4xx_rtc.d)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
@@ -1254,8 +496,8 @@ I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_sai.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_sai.o --omf_browse .\objects\stm32f4xx_sai.crf --depend .\objects\stm32f4xx_sai.d)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
+F (.\FWLIB\src\stm32f4xx_gpio.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys --cpp11-I F:\Git\repo\parameter_shezhi_komono\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_gpio.o --omf_browse .\objects\stm32f4xx_gpio.crf --depend .\objects\stm32f4xx_gpio.d)
+I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
 I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
 I (.\CMISS\core_cm4.h)(0x53C7D532)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -1270,7 +512,6 @@ I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
@@ -1291,8 +532,9 @@ I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_sdio.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_sdio.o --omf_browse .\objects\stm32f4xx_sdio.crf --depend .\objects\stm32f4xx_sdio.d)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
+I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
+F (.\FWLIB\src\stm32f4xx_rcc.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys --cpp11-I F:\Git\repo\parameter_shezhi_komono\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_rcc.o --omf_browse .\objects\stm32f4xx_rcc.crf --depend .\objects\stm32f4xx_rcc.d)
+I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
 I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
 I (.\CMISS\core_cm4.h)(0x53C7D532)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -1311,8 +553,8 @@ I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
+I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
@@ -1328,7 +570,7 @@ I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_spi.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_spi.o --omf_browse .\objects\stm32f4xx_spi.crf --depend .\objects\stm32f4xx_spi.d)
+F (.\FWLIB\src\stm32f4xx_spi.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys --cpp11-I F:\Git\repo\parameter_shezhi_komono\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_spi.o --omf_browse .\objects\stm32f4xx_spi.crf --depend .\objects\stm32f4xx_spi.d)
 I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
 I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
 I (.\CMISS\core_cm4.h)(0x53C7D532)
@@ -1365,7 +607,7 @@ I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_syscfg.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_syscfg.o --omf_browse .\objects\stm32f4xx_syscfg.crf --depend .\objects\stm32f4xx_syscfg.d)
+F (.\FWLIB\src\stm32f4xx_syscfg.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys --cpp11-I F:\Git\repo\parameter_shezhi_komono\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_syscfg.o --omf_browse .\objects\stm32f4xx_syscfg.crf --depend .\objects\stm32f4xx_syscfg.d)
 I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
 I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
 I (.\CMISS\core_cm4.h)(0x53C7D532)
@@ -1402,7 +644,7 @@ I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_tim.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_tim.o --omf_browse .\objects\stm32f4xx_tim.crf --depend .\objects\stm32f4xx_tim.d)
+F (.\FWLIB\src\stm32f4xx_tim.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys --cpp11-I F:\Git\repo\parameter_shezhi_komono\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_tim.o --omf_browse .\objects\stm32f4xx_tim.crf --depend .\objects\stm32f4xx_tim.d)
 I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
 I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
 I (.\CMISS\core_cm4.h)(0x53C7D532)
@@ -1439,7 +681,7 @@ I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_usart.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_usart.o --omf_browse .\objects\stm32f4xx_usart.crf --depend .\objects\stm32f4xx_usart.d)
+F (.\FWLIB\src\stm32f4xx_usart.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys --cpp11-I F:\Git\repo\parameter_shezhi_komono\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_usart.o --omf_browse .\objects\stm32f4xx_usart.crf --depend .\objects\stm32f4xx_usart.d)
 I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
 I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
 I (.\CMISS\core_cm4.h)(0x53C7D532)
@@ -1466,43 +708,6 @@ I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\FWLIB\src\stm32f4xx_wwdg.c)(0x53DBB016)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_wwdg.o --omf_browse .\objects\stm32f4xx_wwdg.crf --depend .\objects\stm32f4xx_wwdg.d)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
 I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
@@ -1517,8 +722,8 @@ F (.\CMISS\core_cm4.h)(0x53C7D532)()
 F (.\CMISS\core_cm4_simd.h)(0x53C7D532)()
 F (.\CMISS\core_cmFunc.h)(0x53C7D532)()
 F (.\CMISS\core_cmInstr.h)(0x53C7D532)()
-F (.\CMISS\startup_stm32f427xx.s)(0x587F19D0)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F427xx SETA 1"--list .\listings\startup_stm32f427xx.lst --xref -o .\objects\startup_stm32f427xx.o --depend .\objects\startup_stm32f427xx.d)
-F (.\CMISS\stm32f4xx_it.c)(0x5426CDF6)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_it.o --omf_browse .\objects\stm32f4xx_it.crf --depend .\objects\stm32f4xx_it.d)
+F (.\CMISS\startup_stm32f427xx.s)(0x587F19D0)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I F:\Git\repo\parameter_shezhi_komono\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F427xx SETA 1"--list .\listings\startup_stm32f427xx.lst --xref -o .\objects\startup_stm32f427xx.o --depend .\objects\startup_stm32f427xx.d)
+F (.\CMISS\stm32f4xx_it.c)(0x5426CDF6)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys --cpp11-I F:\Git\repo\parameter_shezhi_komono\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\stm32f4xx_it.o --omf_browse .\objects\stm32f4xx_it.crf --depend .\objects\stm32f4xx_it.d)
 I (CMISS\stm32f4xx_it.h)(0x5426CDC2)
 I (CMISS\stm32f4xx.h)(0x5A7861E8)
 I (CMISS\core_cm4.h)(0x53C7D532)
@@ -1557,7 +762,7 @@ I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\CMISS\system_stm32f4xx.c)(0x5BAF36E1)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+F (.\CMISS\system_stm32f4xx.c)(0x5BAF36E1)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys --cpp11-I F:\Git\repo\parameter_shezhi_komono\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
 I (CMISS\stm32f4xx.h)(0x5A7861E8)
 I (CMISS\core_cm4.h)(0x53C7D532)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -1595,369 +800,7 @@ I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\CPP\oled.cpp)(0x5C641CE2)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER-o .\objects\oled.o --omf_browse .\objects\oled.crf --depend .\objects\oled.d)
-I (CPP\oled2.h)(0x5C641C6A)
-I (.\USER\sys\sys.h)(0x55CC1472)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\deque)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\limits)(0x51403754)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_defs.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_config.h)(0x53D8D068)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\config.h)(0x53105A3C)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_math.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\cmath)(0x5475F2FE)
-I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
-I (C:\Keil_v5\ARM\ARMCC\include\cfloat)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\climits)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
-I (C:\Keil_v5\ARM\ARMCC\include\memory)(0x4F313782)
-I (C:\Keil_v5\ARM\ARMCC\include\new)(0x5475F2FE)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\exception)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\utility)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_iterbase.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\cstddef)(0x5475F2EE)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_mutex.h)(0x4EB1AAE4)
-I (C:\Keil_v5\ARM\ARMCC\include\cstring)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_algobase.h)(0x4EB1AAE4)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_dispatch.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_iterator.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_error.h)(0x4EB1AAE6)
-I (CPP\VerticalLayout.h)(0x5C62DFEC)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
-I (.\DEVICE\usart3.h)(0x5C52A584)
-I (.\DEVICE\spi.h)(0x5C527C81)
-I (.\USER\delay\delay.h)(0x5A993E74)
-I (C:\Keil_v5\ARM\ARMCC\include\deque.CC)(0x4EB1AAE4)
-F (.\CPP\VerticalLayout.cpp)(0x5C62DAD1)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER-o .\objects\verticallayout.o --omf_browse .\objects\verticallayout.crf --depend .\objects\verticallayout.d)
-I (CPP\VerticalLayout.h)(0x5C62DFEC)
-I (.\USER\sys\sys.h)(0x55CC1472)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\deque)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\limits)(0x51403754)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_defs.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_config.h)(0x53D8D068)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\config.h)(0x53105A3C)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_math.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\cmath)(0x5475F2FE)
-I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
-I (C:\Keil_v5\ARM\ARMCC\include\cfloat)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\climits)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
-I (C:\Keil_v5\ARM\ARMCC\include\memory)(0x4F313782)
-I (C:\Keil_v5\ARM\ARMCC\include\new)(0x5475F2FE)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\exception)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\utility)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_iterbase.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\cstddef)(0x5475F2EE)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_mutex.h)(0x4EB1AAE4)
-I (C:\Keil_v5\ARM\ARMCC\include\cstring)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_algobase.h)(0x4EB1AAE4)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_dispatch.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_iterator.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_error.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\deque.CC)(0x4EB1AAE4)
-F (.\CPP\menu2.cpp)(0x5C6431CA)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER-o .\objects\menu2.o --omf_browse .\objects\menu2.crf --depend .\objects\menu2.d)
-I (CPP\menu2.h)(0x5C6430D6)
-I (.\USER\sys\sys.h)(0x55CC1472)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (CPP\oled2.h)(0x5C641C6A)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\deque)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\limits)(0x51403754)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_defs.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_config.h)(0x53D8D068)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\config.h)(0x53105A3C)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_math.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\cmath)(0x5475F2FE)
-I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
-I (C:\Keil_v5\ARM\ARMCC\include\cfloat)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\climits)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
-I (C:\Keil_v5\ARM\ARMCC\include\memory)(0x4F313782)
-I (C:\Keil_v5\ARM\ARMCC\include\new)(0x5475F2FE)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\exception)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\utility)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_iterbase.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\cstddef)(0x5475F2EE)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_mutex.h)(0x4EB1AAE4)
-I (C:\Keil_v5\ARM\ARMCC\include\cstring)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_algobase.h)(0x4EB1AAE4)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_dispatch.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_iterator.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_error.h)(0x4EB1AAE6)
-I (CPP\VerticalLayout.h)(0x5C62DFEC)
-I (C:\Keil_v5\ARM\ARMCC\include\string)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\iosfwd)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\cwchar)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\wchar.h)(0x5475F2FE)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_strref.h)(0x4EB1AAE4)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_traits.h)(0x4EB1AAE4)
-I (C:\Keil_v5\ARM\ARMCC\include\cstdio)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\sstream)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\istream)(0x53D8D068)
-I (C:\Keil_v5\ARM\ARMCC\include\ostream)(0x53D8D068)
-I (C:\Keil_v5\ARM\ARMCC\include\ios)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\streambuf)(0x4EB1AAE4)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_iosbase.h)(0x5399CA58)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_locale.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_locimp.h)(0x4EB1AAE4)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_locvector.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\ctime)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\clocale)(0x5475F2FA)
-I (C:\Keil_v5\ARM\ARMCC\include\locale.h)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_exception.h)(0x4EB1AAE4)
-I (C:\Keil_v5\ARM\ARMCC\include\cstdarg)(0x5475F2FA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
-I (C:\Keil_v5\ARM\ARMCC\include\cstdlib)(0x5475F2FE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_ctype.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_ioiter.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_numeric.h)(0x53D8D068)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_punct.h)(0x53D8D068)
-I (C:\Keil_v5\ARM\ARMCC\include\deque.CC)(0x4EB1AAE4)
-I (C:\Keil_v5\ARM\ARMCC\include\string.CC)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_punct.CC)(0x53D8D068)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_numeric.CC)(0x53D8D068)
-I (C:\Keil_v5\ARM\ARMCC\include\ios.CC)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\ostream.CC)(0x4EB1AAE6)
-F (.\HARDWARE\control_task.cpp)(0x5C618015)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER-o .\objects\control_task.o --omf_browse .\objects\control_task.crf --depend .\objects\control_task.d)
-I (HARDWARE\control_task.h)(0x5C617F0E)
-I (.\USER\includes.h)(0x5C0B652C)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-I (.\USER\sys\sys.h)(0x55CC1472)
-I (.\DEVICE\led.h)(0x5BA9EC55)
-I (.\USER\delay\delay.h)(0x5A993E74)
-I (.\DEVICE\timer3.h)(0x5BA9F352)
-I (.\DEVICE\usart3.h)(0x5C52A584)
-I (.\DEVICE\usart6.h)(0x5BB079FE)
-I (.\USERLIB\DJ_Protocol.h)(0x5BAC90A9)
-I (.\DEVICE\can.h)(0x5BB09A77)
-I (.\HARDWARE\chassis.h)(0x5BB079D3)
-I (.\HARDWARE\gimbal.h)(0x5BB07C3F)
-I (.\HARDWARE\judge_system.h)(0x5BB079FE)
-I (.\HARDWARE\control_task.h)(0x5C617F0E)
-I (.\USERLIB\pid.h)(0x5BB08EDE)
-I (.\DEVICE\gpio.h)(0x5C530C73)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (.\DEVICE\spi.h)(0x5C527C81)
-I (.\USERLIB\softtimer.h)(0x5C4DBE7E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
-I (.\CPP\menu2.h)(0x5C6430D6)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (.\CPP\oled2.h)(0x5C641C6A)
-I (C:\Keil_v5\ARM\ARMCC\include\deque)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\limits)(0x51403754)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_defs.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_config.h)(0x53D8D068)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\config.h)(0x53105A3C)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_math.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\cmath)(0x5475F2FE)
-I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
-I (C:\Keil_v5\ARM\ARMCC\include\cfloat)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\climits)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
-I (C:\Keil_v5\ARM\ARMCC\include\memory)(0x4F313782)
-I (C:\Keil_v5\ARM\ARMCC\include\new)(0x5475F2FE)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\exception)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\utility)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_iterbase.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\cstddef)(0x5475F2EE)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_mutex.h)(0x4EB1AAE4)
-I (C:\Keil_v5\ARM\ARMCC\include\cstring)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_algobase.h)(0x4EB1AAE4)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_dispatch.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_iterator.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_error.h)(0x4EB1AAE6)
-I (.\CPP\VerticalLayout.h)(0x5C62DFEC)
-I (C:\Keil_v5\ARM\ARMCC\include\string)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\iosfwd)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\cwchar)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\wchar.h)(0x5475F2FE)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_strref.h)(0x4EB1AAE4)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_traits.h)(0x4EB1AAE4)
-I (C:\Keil_v5\ARM\ARMCC\include\cstdio)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\sstream)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\istream)(0x53D8D068)
-I (C:\Keil_v5\ARM\ARMCC\include\ostream)(0x53D8D068)
-I (C:\Keil_v5\ARM\ARMCC\include\ios)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\streambuf)(0x4EB1AAE4)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_iosbase.h)(0x5399CA58)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_locale.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_locimp.h)(0x4EB1AAE4)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_locvector.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\ctime)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\clocale)(0x5475F2FA)
-I (C:\Keil_v5\ARM\ARMCC\include\locale.h)(0x5475F300)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_exception.h)(0x4EB1AAE4)
-I (C:\Keil_v5\ARM\ARMCC\include\cstdarg)(0x5475F2FA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
-I (C:\Keil_v5\ARM\ARMCC\include\cstdlib)(0x5475F2FE)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_ctype.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_ioiter.h)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_numeric.h)(0x53D8D068)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_punct.h)(0x53D8D068)
-I (C:\Keil_v5\ARM\ARMCC\include\deque.CC)(0x4EB1AAE4)
-I (C:\Keil_v5\ARM\ARMCC\include\string.CC)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_punct.CC)(0x53D8D068)
-I (C:\Keil_v5\ARM\ARMCC\include\rw\_numeric.CC)(0x53D8D068)
-I (C:\Keil_v5\ARM\ARMCC\include\ios.CC)(0x4EB1AAE6)
-I (C:\Keil_v5\ARM\ARMCC\include\ostream.CC)(0x4EB1AAE6)
-F (.\DEVICE\led.c)(0x5C0B64EB)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+F (.\DEVICE\led.c)(0x5C0B64EB)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys --cpp11-I F:\Git\repo\parameter_shezhi_komono\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
 I (DEVICE\led.h)(0x5BA9EC55)
 I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
 I (.\CMISS\core_cm4.h)(0x53C7D532)
@@ -1995,9 +838,8 @@ I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\DEVICE\timer3.c)(0x5C617FFA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\timer3.o --omf_browse .\objects\timer3.crf --depend .\objects\timer3.d)
+F (.\DEVICE\timer3.c)(0x5C6439DC)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys --cpp11-I F:\Git\repo\parameter_shezhi_komono\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\timer3.o --omf_browse .\objects\timer3.crf --depend .\objects\timer3.d)
 I (DEVICE\timer3.h)(0x5BA9F352)
-I (.\USER\includes.h)(0x5C0B652C)
 I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
 I (.\CMISS\core_cm4.h)(0x53C7D532)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -2034,22 +876,8 @@ I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-I (.\USER\sys\sys.h)(0x55CC1472)
-I (.\DEVICE\led.h)(0x5BA9EC55)
-I (.\USER\delay\delay.h)(0x5A993E74)
-I (.\DEVICE\usart3.h)(0x5C52A584)
-I (.\DEVICE\usart6.h)(0x5BB079FE)
-I (.\USERLIB\DJ_Protocol.h)(0x5BAC90A9)
-I (.\DEVICE\can.h)(0x5BB09A77)
-I (.\HARDWARE\chassis.h)(0x5BB079D3)
-I (.\HARDWARE\gimbal.h)(0x5BB07C3F)
-I (.\HARDWARE\judge_system.h)(0x5BB079FE)
-I (.\HARDWARE\control_task.h)(0x5C617F0E)
-I (.\USERLIB\pid.h)(0x5BB08EDE)
-I (.\DEVICE\gpio.h)(0x5C530C73)
-F (.\DEVICE\usart3.c)(0x5C601122)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\usart3.o --omf_browse .\objects\usart3.crf --depend .\objects\usart3.d)
+F (.\DEVICE\usart3.c)(0x5C643A48)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys --cpp11-I F:\Git\repo\parameter_shezhi_komono\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\usart3.o --omf_browse .\objects\usart3.crf --depend .\objects\usart3.d)
 I (DEVICE\usart3.h)(0x5C52A584)
-I (.\USER\includes.h)(0x5C0B652C)
 I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
 I (.\CMISS\core_cm4.h)(0x53C7D532)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -2086,26 +914,10 @@ I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-I (.\USER\sys\sys.h)(0x55CC1472)
-I (.\DEVICE\led.h)(0x5BA9EC55)
-I (.\USER\delay\delay.h)(0x5A993E74)
-I (.\DEVICE\timer3.h)(0x5BA9F352)
-I (.\DEVICE\usart6.h)(0x5BB079FE)
-I (.\USERLIB\DJ_Protocol.h)(0x5BAC90A9)
-I (.\DEVICE\can.h)(0x5BB09A77)
-I (.\HARDWARE\chassis.h)(0x5BB079D3)
-I (.\HARDWARE\gimbal.h)(0x5BB07C3F)
-I (.\HARDWARE\judge_system.h)(0x5BB079FE)
-I (.\HARDWARE\control_task.h)(0x5C617F0E)
-I (.\USERLIB\pid.h)(0x5BB08EDE)
-I (.\DEVICE\gpio.h)(0x5C530C73)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (.\HARDWARE\oled.h)(0x5C55AADB)
-I (.\DEVICE\spi.h)(0x5C527C81)
-F (.\DEVICE\usart6.c)(0x5BAC8CD5)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\usart6.o --omf_browse .\objects\usart6.crf --depend .\objects\usart6.d)
-I (DEVICE\usart6.h)(0x5BB079FE)
-I (.\USER\includes.h)(0x5C0B652C)
+F (.\DEVICE\gpio.c)(0x5C507034)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys --cpp11-I F:\Git\repo\parameter_shezhi_komono\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (DEVICE\gpio.h)(0x5C643980)
 I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
 I (.\CMISS\core_cm4.h)(0x53C7D532)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -2142,126 +954,7 @@ I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-I (.\USER\sys\sys.h)(0x55CC1472)
-I (.\DEVICE\led.h)(0x5BA9EC55)
-I (.\USER\delay\delay.h)(0x5A993E74)
-I (.\DEVICE\timer3.h)(0x5BA9F352)
-I (.\DEVICE\usart3.h)(0x5C52A584)
-I (.\USERLIB\DJ_Protocol.h)(0x5BAC90A9)
-I (.\DEVICE\can.h)(0x5BB09A77)
-I (.\HARDWARE\chassis.h)(0x5BB079D3)
-I (.\HARDWARE\gimbal.h)(0x5BB07C3F)
-I (.\HARDWARE\judge_system.h)(0x5BB079FE)
-I (.\HARDWARE\control_task.h)(0x5C617F0E)
-I (.\USERLIB\pid.h)(0x5BB08EDE)
-I (.\DEVICE\gpio.h)(0x5C530C73)
-F (.\DEVICE\can.c)(0x5C0B83F8)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\can.o --omf_browse .\objects\can.crf --depend .\objects\can.d)
-I (DEVICE\can.h)(0x5BB09A77)
-I (.\USER\includes.h)(0x5C0B652C)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-I (.\USER\sys\sys.h)(0x55CC1472)
-I (.\DEVICE\led.h)(0x5BA9EC55)
-I (.\USER\delay\delay.h)(0x5A993E74)
-I (.\DEVICE\timer3.h)(0x5BA9F352)
-I (.\DEVICE\usart3.h)(0x5C52A584)
-I (.\DEVICE\usart6.h)(0x5BB079FE)
-I (.\USERLIB\DJ_Protocol.h)(0x5BAC90A9)
-I (.\DEVICE\can.h)(0x5BB09A77)
-I (.\HARDWARE\chassis.h)(0x5BB079D3)
-I (.\HARDWARE\gimbal.h)(0x5BB07C3F)
-I (.\HARDWARE\judge_system.h)(0x5BB079FE)
-I (.\HARDWARE\control_task.h)(0x5C617F0E)
-I (.\USERLIB\pid.h)(0x5BB08EDE)
-I (.\DEVICE\gpio.h)(0x5C530C73)
-F (.\DEVICE\gpio.c)(0x5C507034)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
-I (DEVICE\gpio.h)(0x5C530C73)
-I (.\USER\includes.h)(0x5C0B652C)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-I (.\USER\sys\sys.h)(0x55CC1472)
-I (.\DEVICE\led.h)(0x5BA9EC55)
-I (.\USER\delay\delay.h)(0x5A993E74)
-I (.\DEVICE\timer3.h)(0x5BA9F352)
-I (.\DEVICE\usart3.h)(0x5C52A584)
-I (.\DEVICE\usart6.h)(0x5BB079FE)
-I (.\USERLIB\DJ_Protocol.h)(0x5BAC90A9)
-I (.\DEVICE\can.h)(0x5BB09A77)
-I (.\HARDWARE\chassis.h)(0x5BB079D3)
-I (.\HARDWARE\gimbal.h)(0x5BB07C3F)
-I (.\HARDWARE\judge_system.h)(0x5BB079FE)
-I (.\HARDWARE\control_task.h)(0x5C617F0E)
-I (.\USERLIB\pid.h)(0x5BB08EDE)
-I (.\DEVICE\gpio.h)(0x5C530C73)
-F (.\DEVICE\spi.c)(0x5C52E6AB)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+F (.\DEVICE\spi.c)(0x5C52E6AB)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys --cpp11-I F:\Git\repo\parameter_shezhi_komono\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
 I (DEVICE\spi.h)(0x5C527C81)
 I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
 I (.\CMISS\core_cm4.h)(0x53C7D532)
@@ -2301,100 +994,9 @@ I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
 I (.\USER\sys\sys.h)(0x55CC1472)
 I (.\USER\delay\delay.h)(0x5A993E74)
-F (.\USERLIB\DJ_Protocol.c)(0x5BAC940D)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\dj_protocol.o --omf_browse .\objects\dj_protocol.crf --depend .\objects\dj_protocol.d)
-I (USERLIB\DJ_Protocol.h)(0x5BAC90A9)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-F (.\USERLIB\pid.c)(0x5C5411DF)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\pid.o --omf_browse .\objects\pid.crf --depend .\objects\pid.d)
-I (USERLIB\pid.h)(0x5BB08EDE)
-I (.\USER\includes.h)(0x5C0B652C)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
+F (.\DEVICE\oled.cpp)(0x5C641CE2)(--cpp -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys --cpp11-I F:\Git\repo\parameter_shezhi_komono\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER-o .\objects\oled.o --omf_browse .\objects\oled.crf --depend .\objects\oled.d)
+I (DEVICE\oled2.h)(0x5C641C6A)
 I (.\USER\sys\sys.h)(0x55CC1472)
-I (.\DEVICE\led.h)(0x5BA9EC55)
-I (.\USER\delay\delay.h)(0x5A993E74)
-I (.\DEVICE\timer3.h)(0x5BA9F352)
-I (.\DEVICE\usart3.h)(0x5C52A584)
-I (.\DEVICE\usart6.h)(0x5BB079FE)
-I (.\USERLIB\DJ_Protocol.h)(0x5BAC90A9)
-I (.\DEVICE\can.h)(0x5BB09A77)
-I (.\HARDWARE\chassis.h)(0x5BB079D3)
-I (.\HARDWARE\gimbal.h)(0x5BB07C3F)
-I (.\HARDWARE\judge_system.h)(0x5BB079FE)
-I (.\HARDWARE\control_task.h)(0x5C617F0E)
-I (.\USERLIB\pid.h)(0x5BB08EDE)
-I (.\DEVICE\gpio.h)(0x5C530C73)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
-F (.\USERLIB\softtimer.c)(0x5C4DC251)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\softtimer.o --omf_browse .\objects\softtimer.crf --depend .\objects\softtimer.d)
-I (USERLIB\softtimer.h)(0x5C4DBE7E)
 I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
 I (.\CMISS\core_cm4.h)(0x53C7D532)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -2431,157 +1033,36 @@ I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
 I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
-F (.\USERLIB\fifo.c)(0x5C5289AB)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\fifo.o --omf_browse .\objects\fifo.crf --depend .\objects\fifo.d)
-I (USERLIB\fifo.h)(0x5C5288EE)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
-F (.\HARDWARE\chassis.c)(0x5C5411DF)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\chassis.o --omf_browse .\objects\chassis.crf --depend .\objects\chassis.d)
-I (HARDWARE\chassis.h)(0x5BB079D3)
-I (.\USER\includes.h)(0x5C0B652C)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-I (.\USER\sys\sys.h)(0x55CC1472)
-I (.\DEVICE\led.h)(0x5BA9EC55)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\deque)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\limits)(0x51403754)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_defs.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_config.h)(0x53D8D068)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\config.h)(0x53105A3C)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_math.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\cmath)(0x5475F2FE)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (C:\Keil_v5\ARM\ARMCC\include\cfloat)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\climits)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x5475F2FA)
+I (C:\Keil_v5\ARM\ARMCC\include\memory)(0x4F313782)
+I (C:\Keil_v5\ARM\ARMCC\include\new)(0x5475F2FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\exception)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\utility)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_iterbase.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\cstddef)(0x5475F2EE)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_mutex.h)(0x4EB1AAE4)
+I (C:\Keil_v5\ARM\ARMCC\include\cstring)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_algobase.h)(0x4EB1AAE4)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_dispatch.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_iterator.h)(0x4EB1AAE6)
+I (C:\Keil_v5\ARM\ARMCC\include\rw\_error.h)(0x4EB1AAE6)
+I (.\USER\VerticalLayout.h)(0x5C62DFEC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (DEVICE\usart3.h)(0x5C52A584)
+I (DEVICE\spi.h)(0x5C527C81)
 I (.\USER\delay\delay.h)(0x5A993E74)
-I (.\DEVICE\timer3.h)(0x5BA9F352)
-I (.\DEVICE\usart3.h)(0x5C52A584)
-I (.\DEVICE\usart6.h)(0x5BB079FE)
-I (.\USERLIB\DJ_Protocol.h)(0x5BAC90A9)
-I (.\DEVICE\can.h)(0x5BB09A77)
-I (.\HARDWARE\chassis.h)(0x5BB079D3)
-I (.\HARDWARE\gimbal.h)(0x5BB07C3F)
-I (.\HARDWARE\judge_system.h)(0x5BB079FE)
-I (.\HARDWARE\control_task.h)(0x5C617F0E)
-I (.\USERLIB\pid.h)(0x5BB08EDE)
-I (.\DEVICE\gpio.h)(0x5C530C73)
-F (.\HARDWARE\gimbal.c)(0x5BB08118)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\gimbal.o --omf_browse .\objects\gimbal.crf --depend .\objects\gimbal.d)
-I (HARDWARE\gimbal.h)(0x5BB07C3F)
-F (.\HARDWARE\judge_system.c)(0x5BB08228)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\judge_system.o --omf_browse .\objects\judge_system.crf --depend .\objects\judge_system.d)
-I (HARDWARE\judge_system.h)(0x5BB079FE)
-I (.\USER\includes.h)(0x5C0B652C)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-I (.\USER\sys\sys.h)(0x55CC1472)
-I (.\DEVICE\led.h)(0x5BA9EC55)
-I (.\USER\delay\delay.h)(0x5A993E74)
-I (.\DEVICE\timer3.h)(0x5BA9F352)
-I (.\DEVICE\usart3.h)(0x5C52A584)
-I (.\DEVICE\usart6.h)(0x5BB079FE)
-I (.\USERLIB\DJ_Protocol.h)(0x5BAC90A9)
-I (.\DEVICE\can.h)(0x5BB09A77)
-I (.\HARDWARE\chassis.h)(0x5BB079D3)
-I (.\HARDWARE\gimbal.h)(0x5BB07C3F)
-I (.\HARDWARE\judge_system.h)(0x5BB079FE)
-I (.\HARDWARE\control_task.h)(0x5C617F0E)
-I (.\USERLIB\pid.h)(0x5BB08EDE)
-I (.\DEVICE\gpio.h)(0x5C530C73)
-F (.\HARDWARE\oled.c)(0x5C601A42)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\CMISS -I.\FWLIB\inc -I.\USER -I.\DEVICE -I.\USER\delay -I.\USER\sys -I.\USERLIB -I.\HARDWARE -I.\CPP --cpp11-I "C:\Users\Lenovo\Desktop\32_puro\427 oled²Ëµ¥²âÊÔv3.0\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx -DSTM32F427_437xx -DUSE_STDPERIPH_DRIVER --C99-o .\objects\oled_1.o --omf_browse .\objects\oled_1.crf --depend .\objects\oled_1.d)
-I (HARDWARE\oled.h)(0x5C55AADB)
-I (.\CMISS\stm32f4xx.h)(0x5A7861E8)
-I (.\CMISS\core_cm4.h)(0x53C7D532)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (.\CMISS\core_cmInstr.h)(0x53C7D532)
-I (.\CMISS\core_cmFunc.h)(0x53C7D532)
-I (.\CMISS\core_cm4_simd.h)(0x53C7D532)
-I (.\CMISS\system_stm32f4xx.h)(0x53DBA49A)
-I (.\CMISS\stm32f4xx_conf.h)(0x53DBB3CC)
-I (.\FWLIB\inc\stm32f4xx_adc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_crc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_exti.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_flash.h)(0x53DF9332)
-I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_spi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_tim.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_usart.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x53DBAFAE)
-I (.\FWLIB\inc\misc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_hash.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_rng.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_dma2d.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_fmc.h)(0x53DBAFAE)
-I (.\FWLIB\inc\stm32f4xx_sai.h)(0x53DBAFAE)
-I (.\USER\sys\sys.h)(0x55CC1472)
-I (.\DEVICE\spi.h)(0x5C527C81)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (.\USER\delay\delay.h)(0x5A993E74)
+I (C:\Keil_v5\ARM\ARMCC\include\deque.CC)(0x4EB1AAE4)

@@ -1,6 +1,5 @@
 .\objects\timer3.o: DEVICE\timer3.c
 .\objects\timer3.o: DEVICE\timer3.h
-.\objects\timer3.o: .\USER\includes.h
 .\objects\timer3.o: .\CMISS\stm32f4xx.h
 .\objects\timer3.o: .\CMISS\core_cm4.h
 .\objects\timer3.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
@@ -38,17 +37,3 @@
 .\objects\timer3.o: .\FWLIB\inc\stm32f4xx_dma2d.h
 .\objects\timer3.o: .\FWLIB\inc\stm32f4xx_fmc.h
 .\objects\timer3.o: .\FWLIB\inc\stm32f4xx_sai.h
-.\objects\timer3.o: .\USER\sys\sys.h
-.\objects\timer3.o: .\DEVICE\led.h
-.\objects\timer3.o: .\USER\delay\delay.h
-.\objects\timer3.o: .\DEVICE\usart3.h
-.\objects\timer3.o: .\DEVICE\usart6.h
-.\objects\timer3.o: .\USERLIB\DJ_Protocol.h
-.\objects\timer3.o: .\DEVICE\can.h
-.\objects\timer3.o: .\USER\includes.h
-.\objects\timer3.o: .\HARDWARE\chassis.h
-.\objects\timer3.o: .\HARDWARE\gimbal.h
-.\objects\timer3.o: .\HARDWARE\judge_system.h
-.\objects\timer3.o: .\HARDWARE\control_task.h
-.\objects\timer3.o: .\USERLIB\pid.h
-.\objects\timer3.o: .\DEVICE\gpio.h

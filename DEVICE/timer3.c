@@ -1,5 +1,5 @@
 #include "timer3.h"
-#include "includes.h"
+#include "stm32f4xx.h"
 
 void InitTimer3(void)
 {
@@ -34,7 +34,6 @@ void TIM3_IRQHandler(void)
 {
 	if (TIM_GetITStatus(TIM3,TIM_IT_Update)!= RESET) 
 	{
-		TAG = ~TAG;
 		ControlTask();
 	}
 	TIM_ClearITPendingBit(TIM3,TIM_IT_Update);

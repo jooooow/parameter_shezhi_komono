@@ -1,5 +1,5 @@
-.\objects\verticallayout.o: CPP\VerticalLayout.cpp
-.\objects\verticallayout.o: CPP\VerticalLayout.h
+.\objects\verticallayout.o: USER\VerticalLayout.cpp
+.\objects\verticallayout.o: USER\VerticalLayout.h
 .\objects\verticallayout.o: .\USER\sys\sys.h
 .\objects\verticallayout.o: .\CMISS\stm32f4xx.h
 .\objects\verticallayout.o: .\CMISS\core_cm4.h

@@ -4,8 +4,8 @@ extern "C"
 }
 #include "stdio.h"
 #include "spi.h"
-#include "softtimer.h"
 #include "menu2.h"
+#include "gpio.h"
 
 void InitControlTask(void)
 {

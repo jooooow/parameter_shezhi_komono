@@ -1,6 +1,5 @@
 .\objects\gpio.o: DEVICE\gpio.c
 .\objects\gpio.o: DEVICE\gpio.h
-.\objects\gpio.o: .\USER\includes.h
 .\objects\gpio.o: .\CMISS\stm32f4xx.h
 .\objects\gpio.o: .\CMISS\core_cm4.h
 .\objects\gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
@@ -38,18 +37,3 @@
 .\objects\gpio.o: .\FWLIB\inc\stm32f4xx_dma2d.h
 .\objects\gpio.o: .\FWLIB\inc\stm32f4xx_fmc.h
 .\objects\gpio.o: .\FWLIB\inc\stm32f4xx_sai.h
-.\objects\gpio.o: .\USER\sys\sys.h
-.\objects\gpio.o: .\DEVICE\led.h
-.\objects\gpio.o: .\USER\delay\delay.h
-.\objects\gpio.o: .\DEVICE\timer3.h
-.\objects\gpio.o: .\DEVICE\usart3.h
-.\objects\gpio.o: .\DEVICE\usart6.h
-.\objects\gpio.o: .\USERLIB\DJ_Protocol.h
-.\objects\gpio.o: .\DEVICE\can.h
-.\objects\gpio.o: .\USER\includes.h
-.\objects\gpio.o: .\HARDWARE\chassis.h
-.\objects\gpio.o: .\HARDWARE\gimbal.h
-.\objects\gpio.o: .\HARDWARE\judge_system.h
-.\objects\gpio.o: .\HARDWARE\control_task.h
-.\objects\gpio.o: .\USERLIB\pid.h
-.\objects\gpio.o: .\DEVICE\gpio.h

@@ -1,6 +1,5 @@
 .\objects\chassis.o: HARDWARE\chassis.c
 .\objects\chassis.o: HARDWARE\chassis.h
-.\objects\chassis.o: .\USER\includes.h
 .\objects\chassis.o: .\CMISS\stm32f4xx.h
 .\objects\chassis.o: .\CMISS\core_cm4.h
 .\objects\chassis.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
@@ -38,18 +37,3 @@
 .\objects\chassis.o: .\FWLIB\inc\stm32f4xx_dma2d.h
 .\objects\chassis.o: .\FWLIB\inc\stm32f4xx_fmc.h
 .\objects\chassis.o: .\FWLIB\inc\stm32f4xx_sai.h
-.\objects\chassis.o: .\USER\sys\sys.h
-.\objects\chassis.o: .\DEVICE\led.h
-.\objects\chassis.o: .\USER\delay\delay.h
-.\objects\chassis.o: .\DEVICE\timer3.h
-.\objects\chassis.o: .\DEVICE\usart3.h
-.\objects\chassis.o: .\DEVICE\usart6.h
-.\objects\chassis.o: .\USERLIB\DJ_Protocol.h
-.\objects\chassis.o: .\DEVICE\can.h
-.\objects\chassis.o: .\USER\includes.h
-.\objects\chassis.o: .\HARDWARE\chassis.h
-.\objects\chassis.o: .\HARDWARE\gimbal.h
-.\objects\chassis.o: .\HARDWARE\judge_system.h
-.\objects\chassis.o: .\HARDWARE\control_task.h
-.\objects\chassis.o: .\USERLIB\pid.h
-.\objects\chassis.o: .\DEVICE\gpio.h

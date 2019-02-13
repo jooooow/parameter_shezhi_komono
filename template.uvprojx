@@ -366,7 +366,7 @@
               <MiscControls>--cpp11</MiscControls>
               <Define>STM32F427_437xx,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>.\CMISS;.\FWLIB\inc;.\USER;.\DEVICE;.\USER\delay;.\USER\sys;.\USERLIB;.\HARDWARE;.\CPP</IncludePath>
+              <IncludePath>.\CMISS;.\FWLIB\inc;.\USER;.\DEVICE;.\USER\delay;.\USER\sys</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -410,16 +410,6 @@
           <GroupName>USER</GroupName>
           <Files>
             <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\USER\main.c</FilePath>
-            </File>
-            <File>
-              <FileName>includes.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\USER\includes.h</FilePath>
-            </File>
-            <File>
               <FileName>delay.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\USER\delay\delay.c</FilePath>
@@ -430,9 +420,24 @@
               <FilePath>.\USER\sys\sys.c</FilePath>
             </File>
             <File>
+              <FileName>control_task.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\USER\control_task.cpp</FilePath>
+            </File>
+            <File>
               <FileName>main.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>.\CPP\main.cpp</FilePath>
+              <FilePath>.\USER\main.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>menu2.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\USER\menu2.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>VerticalLayout.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\USER\VerticalLayout.cpp</FilePath>
             </File>
           </Files>
         </Group>
@@ -445,144 +450,14 @@
               <FilePath>.\FWLIB\src\misc.c</FilePath>
             </File>
             <File>
-              <FileName>stm32f4xx_adc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FWLIB\src\stm32f4xx_adc.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_can.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FWLIB\src\stm32f4xx_can.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_crc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FWLIB\src\stm32f4xx_crc.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_cryp.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FWLIB\src\stm32f4xx_cryp.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_cryp_aes.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FWLIB\src\stm32f4xx_cryp_aes.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_cryp_des.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FWLIB\src\stm32f4xx_cryp_des.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_cryp_tdes.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FWLIB\src\stm32f4xx_cryp_tdes.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_dac.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FWLIB\src\stm32f4xx_dac.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_dbgmcu.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FWLIB\src\stm32f4xx_dbgmcu.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_dcmi.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FWLIB\src\stm32f4xx_dcmi.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_dma.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FWLIB\src\stm32f4xx_dma.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_dma2d.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FWLIB\src\stm32f4xx_dma2d.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_exti.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FWLIB\src\stm32f4xx_exti.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_flash.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FWLIB\src\stm32f4xx_flash.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_flash_ramfunc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FWLIB\src\stm32f4xx_flash_ramfunc.c</FilePath>
-            </File>
-            <File>
               <FileName>stm32f4xx_gpio.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\FWLIB\src\stm32f4xx_gpio.c</FilePath>
             </File>
             <File>
-              <FileName>stm32f4xx_hash.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FWLIB\src\stm32f4xx_hash.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hash_md5.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FWLIB\src\stm32f4xx_hash_md5.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hash_sha1.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FWLIB\src\stm32f4xx_hash_sha1.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_i2c.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FWLIB\src\stm32f4xx_i2c.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_iwdg.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FWLIB\src\stm32f4xx_iwdg.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_ltdc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FWLIB\src\stm32f4xx_ltdc.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_pwr.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FWLIB\src\stm32f4xx_pwr.c</FilePath>
-            </File>
-            <File>
               <FileName>stm32f4xx_rcc.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\FWLIB\src\stm32f4xx_rcc.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_rng.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FWLIB\src\stm32f4xx_rng.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_rtc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FWLIB\src\stm32f4xx_rtc.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_sai.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FWLIB\src\stm32f4xx_sai.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_sdio.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FWLIB\src\stm32f4xx_sdio.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_spi.c</FileName>
@@ -603,11 +478,6 @@
               <FileName>stm32f4xx_usart.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\FWLIB\src\stm32f4xx_usart.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_wwdg.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\FWLIB\src\stm32f4xx_wwdg.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -652,31 +522,6 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>CPP</GroupName>
-          <Files>
-            <File>
-              <FileName>oled.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>.\CPP\oled.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>VerticalLayout.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>.\CPP\VerticalLayout.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>menu2.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>.\CPP\menu2.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>control_task.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>.\HARDWARE\control_task.cpp</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
           <GroupName>DEVICE</GroupName>
           <Files>
             <File>
@@ -695,16 +540,6 @@
               <FilePath>.\DEVICE\usart3.c</FilePath>
             </File>
             <File>
-              <FileName>usart6.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\DEVICE\usart6.c</FilePath>
-            </File>
-            <File>
-              <FileName>can.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\DEVICE\can.c</FilePath>
-            </File>
-            <File>
               <FileName>gpio.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\DEVICE\gpio.c</FilePath>
@@ -714,55 +549,10 @@
               <FileType>1</FileType>
               <FilePath>.\DEVICE\spi.c</FilePath>
             </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>USERLIB</GroupName>
-          <Files>
             <File>
-              <FileName>DJ_Protocol.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\USERLIB\DJ_Protocol.c</FilePath>
-            </File>
-            <File>
-              <FileName>pid.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\USERLIB\pid.c</FilePath>
-            </File>
-            <File>
-              <FileName>softtimer.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\USERLIB\softtimer.c</FilePath>
-            </File>
-            <File>
-              <FileName>fifo.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\USERLIB\fifo.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>HARDWARE</GroupName>
-          <Files>
-            <File>
-              <FileName>chassis.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\HARDWARE\chassis.c</FilePath>
-            </File>
-            <File>
-              <FileName>gimbal.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\HARDWARE\gimbal.c</FilePath>
-            </File>
-            <File>
-              <FileName>judge_system.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\HARDWARE\judge_system.c</FilePath>
-            </File>
-            <File>
-              <FileName>oled.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\HARDWARE\oled.c</FilePath>
+              <FileName>oled.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\DEVICE\oled.cpp</FilePath>
             </File>
           </Files>
         </Group>

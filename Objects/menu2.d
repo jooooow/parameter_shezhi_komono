@@ -1,5 +1,5 @@
-.\objects\menu2.o: CPP\menu2.cpp
-.\objects\menu2.o: CPP\menu2.h
+.\objects\menu2.o: USER\menu2.cpp
+.\objects\menu2.o: USER\menu2.h
 .\objects\menu2.o: .\USER\sys\sys.h
 .\objects\menu2.o: .\CMISS\stm32f4xx.h
 .\objects\menu2.o: .\CMISS\core_cm4.h
@@ -39,7 +39,7 @@
 .\objects\menu2.o: .\FWLIB\inc\stm32f4xx_fmc.h
 .\objects\menu2.o: .\FWLIB\inc\stm32f4xx_sai.h
 .\objects\menu2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\objects\menu2.o: CPP\oled2.h
+.\objects\menu2.o: .\DEVICE\oled2.h
 .\objects\menu2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\menu2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\deque
 .\objects\menu2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits
@@ -66,7 +66,7 @@
 .\objects\menu2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rw/_dispatch.h
 .\objects\menu2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rw/_iterator.h
 .\objects\menu2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rw/_error.h
-.\objects\menu2.o: CPP\VerticalLayout.h
+.\objects\menu2.o: .\USER\VerticalLayout.h
 .\objects\menu2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\menu2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string
 .\objects\menu2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\iosfwd
