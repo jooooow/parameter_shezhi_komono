@@ -231,7 +231,7 @@ void Oled::ClearAll()
 	}
 }
 
-void Oled::ShowChar(u8 x, u8 y, u8 ch)
+void Oled::ShowChar(u8 x, u8 y, u8 ch, u8 is_rev)
 {
 	u8 i=0;
 	u8 ret=0;
@@ -245,17 +245,22 @@ void Oled::ShowChar(u8 x, u8 y, u8 ch)
   SetPosition(x,y+1);
   for(i=0;i<6;i++)
   {
-		WriteData(F6x8[ret][i]);
+		if(is_rev)
+			WriteData(~F6x8[ret][i]);
+		else
+			WriteData(F6x8[ret][i]);
 	}
 }
 
-void Oled::ShowString(u8 x,u8 y,const char *str)
+void Oled::ShowString(u8 x,u8 y,const char *str, char rev_pos)
 {
 	u8 i=0;
-
   while(str[i]!='\0')
   {
-		ShowChar(x,y,str[i]);
+		if(i == rev_pos)
+			ShowChar(x,y,str[i],1);
+		else
+			ShowChar(x,y,str[i],0);
 		x += 8;
 		if(x>120)
 		{

@@ -28,20 +28,20 @@ public:
 	void SetLayout(VerticalLayout* l, VerticalLayout* r);
 
 	void ClearAll();
-	void ShowChar(u8 x, u8 y, u8 ch);
-	void ShowString(u8 x,u8 y,const char *str);
+	void ShowChar(u8 x, u8 y, u8 ch, u8 is_rev = 0);
+	void ShowString(u8 x,u8 y,const char *str, char rev_pos = -1);
 	void ShowImg(u8 x0,u8 y0,u8 x1,u8 y1,u8 img[]);
 
 	void Update();
 	void UpdateRight();
 	void UpdateLeft();
+	void UpdateLeftOn();
 
 	void Push2Left(const char* str, u8 direction);
 	void Push2Right(const char* str, u8 direction);
 
 	void ClearRight();
 	void ClearLeft();
-	
 	u8 GetMaxLayoutHeight();
 
 private:

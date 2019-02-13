@@ -9,7 +9,7 @@
 
 typedef struct _MenuNodeValue_t
 {
-	enum Type{UCHAR, USHORT, FLOAT, UNKNOWN};
+	enum Type{UCHAR, USHORT, DOUBLE, UNKNOWN};
 	
 	_MenuNodeValue_t(){u_8 = 0; u_16 = 0; f = 0.0f; type = UNKNOWN;}
 	void SetValue(float val, u8 tp)
@@ -18,7 +18,7 @@ typedef struct _MenuNodeValue_t
 			u_8 = (u8)val;
 		else if(tp == USHORT)
 			u_16 = (u16)val;
-		else if(tp == FLOAT)
+		else if(tp == DOUBLE)
 			f = val;
 		
 		type = tp;
@@ -29,16 +29,15 @@ typedef struct _MenuNodeValue_t
 		{
 			case UCHAR:u_8 += (u8)v;break;
 			case USHORT:u_16 += (u16)v;break;
-			case FLOAT:f += v;break;
+			case DOUBLE:f += v;break;
 			default:break;
 		}
 	}
-		
+	u8 type;
+	
 	u8    u_8;
 	u16   u_16;
-	float f;
-	
-	u8 type;
+	double f;
 }MenuNodeValue_t;
 
 typedef struct _MenuNode_t
@@ -64,8 +63,8 @@ typedef struct _MenuNode_t
 	_MenuNode_t* parent;
 	
 	u8 authority;
-	MenuNodeValue_t value;
 	char name[7];
+	MenuNodeValue_t value;
 }MenuNode_t;
 
 class Menu
@@ -78,6 +77,7 @@ public:
 	void Move(u8 pushed_key = UNKNOWN);
 		
 	MenuNode_t* GetCurNode(){return cur_node;}
+	void ShowChildrenOrValue();
 	void ShowNexts();
 	void ShowChildren();
 	void ShowValue();
@@ -88,6 +88,8 @@ private:
 	std::string cur_path;
 	short cur_cursor_row;
 	Oled* oled;
+	signed char cur_value_set_pos;
+	u8 is_into_value_set;
 
 private:
 	void Left();
@@ -96,6 +98,7 @@ private:
 	void Down();
 	void Kakunin();
 	void MoveCursor(short row);
+	void CurNodeValueAdd(double val);
 };
 
 #endif

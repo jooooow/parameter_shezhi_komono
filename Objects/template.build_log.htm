@@ -27,16 +27,20 @@ Project File Date:  02/11/2019
 <h2>Output:</h2>
 Build target 'Target 1'
 compiling menu2.cpp...
-CPP\menu2.h(51): warning:  #175-D: subscript out of range
+CPP\oled2.h(32): warning:  #68-D: integer conversion resulted in a change of sign
+        void ShowString(u8 x,u8 y,const char *str, char rev_pos = -1);
+CPP\menu2.h(50): warning:  #175-D: subscript out of range
                 name[7] = '\0';
-CPP\menu2.cpp(371): warning:  #940-D: missing return statement at end of non-void function "GetDigit"
+CPP\menu2.cpp(299): warning:  #68-D: integer conversion resulted in a change of sign
+                        oled->ShowString(72,0,oled->layout_right->GetAt(0)->str,-1);
+CPP\menu2.cpp(312): warning:  #68-D: integer conversion resulted in a change of sign
+                                oled->ShowString(72,0,oled->layout_right->GetAt(0)->str,-1);
+CPP\menu2.cpp(446): warning:  #940-D: missing return statement at end of non-void function "GetIntegerDigit"
   } 
-CPP\menu2.cpp(418): warning:  #1-D: last line of file ends without a newline
-  }
-CPP\menu2.cpp: 3 warnings, 0 errors
+CPP\menu2.cpp: 5 warnings, 0 errors
 linking...
-Program Size: Code=30356 RO-data=2928 RW-data=1132 ZI-data=7628  
-".\Objects\template.axf" - 0 Error(s), 3 Warning(s).
+Program Size: Code=33764 RO-data=2756 RW-data=1128 ZI-data=7624  
+".\Objects\template.axf" - 0 Error(s), 5 Warning(s).
 
 <h2>Collection of Component include folders:</h2>
   C:\Users\Lenovo\Desktop\32_puro\427 oled≤Àµ•≤‚ ‘v3.0\RTE
