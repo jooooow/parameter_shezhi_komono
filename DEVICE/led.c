@@ -12,4 +12,6 @@ void InitLed(void)
 	gpio.GPIO_OType = GPIO_OType_PP;
 	gpio.GPIO_Speed = GPIO_Speed_100MHz;
 	GPIO_Init(GPIOE,&gpio);
+	
+	LED_RED_OFF();
 }

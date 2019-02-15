@@ -11,6 +11,7 @@ extern "C"
 #include "stdio.h"
 #include "gpio.h"
 #include "timer3.h"
+#include "led.h"
 }
 
 #define MODE_SET   0
@@ -81,6 +82,7 @@ static void Init()
 {
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
 	
+	InitLed();
 	InitUsart3();
 	InitUsart3NVIC();
 	printf("init..\r\n");

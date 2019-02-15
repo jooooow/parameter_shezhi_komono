@@ -33,6 +33,18 @@ typedef struct _MenuNodeValue_t
 			default:break;
 		}
 	}
+	char* GetStringFormat()
+	{
+		char* temp = new char[7];
+		switch(type)
+		{
+			case UCHAR:sprintf(temp,"%d",u_8);break;
+			case USHORT:sprintf(temp,"%d",u_16);break;
+			case DOUBLE:sprintf(temp,"%.5f",f);break;
+			default:break;
+		}
+		return temp;
+	}
 	u8 type;
 	
 	u8    u_8;

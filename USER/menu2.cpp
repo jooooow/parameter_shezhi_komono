@@ -93,12 +93,12 @@ Menu::Menu(Oled* o)
   SetNode(&bl_para,           "wave",       &gs_para,           &yt_para,           &bl_pid,         NULL          , READONLY,   0,        UCHAR );
   SetNode(&gs_para,           "follow",     &ny_para,           &bl_para,           &gs_pid,         NULL          , READONLY,   0,        UCHAR );
   SetNode(&ny_para,           "newyork",    &sample1,           &gs_para,           &ny_pid,         NULL          , READONLY,   0,        UCHAR );
-  SetNode(&sample1,           "sample1",    &sample2,           &ny_para,           NULL,            NULL          , READWRITE,  0.0f,     DOUBLE);
-  SetNode(&sample2,           "sample2",    &sample3,           &sample1,           NULL,            NULL          , READWRITE,  0.0f,     DOUBLE);
-  SetNode(&sample3,           "sample3",    &sample4,           &sample2,           NULL,            NULL          , READWRITE,  0.0f,     DOUBLE);
-  SetNode(&sample4,           "sample4",    &sample5,           &sample3,           NULL,            NULL          , READWRITE,  0.0f,     DOUBLE);
-  SetNode(&sample5,           "sample5",    &config,            &sample4,           NULL,            NULL          , READWRITE,  0.0f,     DOUBLE);
-  SetNode(&config,            "config",     NULL,               &sample5,           &config_waitack, NULL          , READONLY,   0,        UCHAR );
+  SetNode(&sample1,           "sample1",    &config,            &ny_para,           NULL,            NULL          , READWRITE,  0.0f,     DOUBLE);
+//  SetNode(&sample2,           "sample2",    &sample3,           &sample1,           NULL,            NULL          , READWRITE,  0.0f,     DOUBLE);
+//  SetNode(&sample3,           "sample3",    &sample4,           &sample2,           NULL,            NULL          , READWRITE,  0.0f,     DOUBLE);
+//  SetNode(&sample4,           "sample4",    &sample5,           &sample3,           NULL,            NULL          , READWRITE,  0.0f,     DOUBLE);
+//  SetNode(&sample5,           "sample5",    &config,            &sample4,           NULL,            NULL          , READWRITE,  0.0f,     DOUBLE);
+  SetNode(&config,            "config",     NULL,               &sample1,           &config_waitack, NULL          , READONLY,   0,        UCHAR );
                                                                                                                                 
   SetNode(&control_mode,      "mode",       &control_reset,     NULL,               NULL,            &control      , READWRITE,   1,       USHORT);
   SetNode(&control_reset,     "reset",      NULL,               &control_mode,      NULL,            &control      , READWRITE,   0,       USHORT);
@@ -153,7 +153,7 @@ Menu::Menu(Oled* o)
   SetNode(&ny_scale,          "scale",      &ny_enable,         &ny_maxch,          NULL,            &ny_para      , READWRITE,  6.0f,     DOUBLE);
   SetNode(&ny_enable,         "enable",     NULL,               &ny_scale,          NULL,            &ny_para      , READWRITE,  1,        USHORT);
                                                                                                                     
-  SetNode(&config_waitack,    "waitack",    NULL,               NULL,               NULL,            &config       , READWRITE,  1,        USHORT);
+  SetNode(&config_waitack,    "waitack",    NULL,               NULL,               NULL,            &config       , READWRITE,  1,        UCHAR );
   
   cur_node = &control;
   cur_path = "";
@@ -201,10 +201,11 @@ void Menu::Up()
 			double weight = GetNodeWeightByPos(cur_node,cur_value_set_pos);
 			CurNodeValueAdd(weight);
 			oled->ClearRight();
-			char temp[7];
-			sprintf(temp,"%.5f",cur_node->value.f);
+			char* temp = cur_node->value.GetStringFormat();
 			oled->Push2Right(temp,1);
 			oled->ShowString(72,0,oled->layout_right->GetAt(0)->str,cur_value_set_pos);
+			delete temp;
+			temp = NULL;
 		}
 	}
 }
@@ -234,10 +235,11 @@ void Menu::Down()
 			double weight = GetNodeWeightByPos(cur_node,cur_value_set_pos);
 			CurNodeValueAdd(-weight);
 			oled->ClearRight();
-			char temp[7];
-			sprintf(temp,"%.5f",cur_node->value.f);
+			char* temp = cur_node->value.GetStringFormat();
 			oled->Push2Right(temp,1);
 			oled->ShowString(72,0,oled->layout_right->GetAt(0)->str,cur_value_set_pos);
+			delete temp;
+			temp = NULL;
 		}
 	}
 }
@@ -337,6 +339,13 @@ void Menu::Kakunin()
 			sprintf(value_str,"%.5f",cur_node->value.f);
 		
 		set_str = path_str + " " + value_str;
+		
+		unsigned int sum = 0;
+		char check_sum = 0;
+		for(int i = 0; i < set_str.length(); i++)
+			sum += set_str.at(i);
+		check_sum = sum % 26 + 'A';
+		set_str += check_sum;
 		printf("%s\r\n",set_str.data());
 	}
 }
@@ -384,7 +393,7 @@ void Menu::ShowValue()
 	{
 		case UCHAR:sprintf(str,"%d",temp->value.u_8);break;
 		case USHORT:sprintf(str,"%d",temp->value.u_16);break;
-		case DOUBLE:sprintf(str,"%.7f",temp->value.f);break;
+		case DOUBLE:sprintf(str,"%.5f",temp->value.f);break;
 		default:break;
 	}
 	oled->Push2Right(str,1);
@@ -417,8 +426,8 @@ void Menu::CurNodeValueAdd(double val)
 	MenuNode_t* temp = cur_node;
 	switch(temp->value.type)
 	{
-		case UCHAR:temp->value.u_8 += (u8)val;break;
-		case USHORT:temp->value.u_16 += (u16)val;break;
+		case UCHAR:temp->value.u_8 += (signed char)val;break;
+		case USHORT:temp->value.u_16 += (short)val;break;
 		case DOUBLE:temp->value.f += (double)val;break;
 		default:break;
 	}

@@ -11,8 +11,8 @@ void InitTimer3(void)
 	TIM_TimeBaseInitStructure.TIM_CounterMode=TIM_CounterMode_Up;
 	TIM_TimeBaseInitStructure.TIM_ClockDivision=TIM_CKD_DIV1; 
 	TIM_TimeBaseInit(TIM3,&TIM_TimeBaseInitStructure);
+	TIM_ClearITPendingBit(TIM3, TIM_IT_Update);
 	TIM_ITConfig(TIM3,TIM_IT_Update,ENABLE);
-	
 }
 
 void InitTimer3NVIC(void)
@@ -23,7 +23,6 @@ void InitTimer3NVIC(void)
 	NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;
 	NVIC_InitStructure.NVIC_IRQChannelCmd=ENABLE;
 	NVIC_Init(&NVIC_InitStructure);
-	TIM_ITConfig(TIM3,TIM_IT_Update,ENABLE);
 }
 
 extern u8 flag;

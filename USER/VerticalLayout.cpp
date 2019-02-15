@@ -17,6 +17,7 @@ void VerticalLayout::PushFront(const char* str)
 	buf.push_front(v);
 	
 	delete p;
+	p = NULL;
 }
 
 void VerticalLayout::PushBack(const char* str)
@@ -29,17 +30,20 @@ void VerticalLayout::PushBack(const char* str)
 		PopFront();
 	buf.push_back(v);
 	delete p;
+	p = NULL;
 }
 
 void VerticalLayout::PopFront()
 {
 	delete buf.at(0);
+	buf.at(0) = NULL;
 	buf.pop_front();
 }
 
 void VerticalLayout::PopBack()
 {
 	delete buf.at(buf.size() - 1);
+	buf.at(buf.size() - 1) = NULL;
 	buf.pop_back();
 }
 
@@ -61,7 +65,7 @@ u8 VerticalLayout::ClearAt(u8 index)
 	if(index > buf.size() - 1)
 		return 0;
 	delete buf.at(index);
-	
+	buf.at(index) = 0;
 	return 1;
 }
 

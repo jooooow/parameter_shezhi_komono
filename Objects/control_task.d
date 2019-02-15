@@ -100,6 +100,7 @@
 .\objects\control_task.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rw/_numeric.h
 .\objects\control_task.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rw/_punct.h
 .\objects\control_task.o: .\DEVICE\gpio.h
+.\objects\control_task.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\control_task.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\deque.CC
 .\objects\control_task.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.CC
 .\objects\control_task.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rw/_punct.CC

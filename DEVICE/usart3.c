@@ -2,6 +2,7 @@
 #include "stm32f4xx.h"
 #include "stdio.h"
 #include "string.h"
+#include "led.h"
 
 #define MAX_CHAR_NUM 16
 
@@ -42,8 +43,7 @@ void InitUsart3(void)
 	USART_InitStructure.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
 	USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;
 	USART_Init(USART3, &USART_InitStructure);
-	
-	USART_ITConfig(USART3, USART_IT_RXNE, ENABLE);
+	USART_ITConfig(USART3, USART_IT_RXNE, ENABLE);	
 	
 	USART_Cmd(USART3, ENABLE);
 }
@@ -53,7 +53,7 @@ void InitUsart3NVIC(void)
 	NVIC_InitTypeDef NVIC_InitStructure;
 	
 	NVIC_InitStructure.NVIC_IRQChannel = USART3_IRQn;
-	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
+	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 1;
 	NVIC_InitStructure.NVIC_IRQChannelSubPriority = 1;
 	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
 	NVIC_Init(&NVIC_InitStructure);
@@ -64,7 +64,6 @@ void USART3_IRQHandler(void)
 {
 	if(USART_GetITStatus(USART3, USART_IT_RXNE) != RESET)
 	{
-		
-
+		u8 d = USART3->DR;
 	}
 }

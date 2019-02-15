@@ -103,6 +103,7 @@
 .\objects\main.o: .\DEVICE\usart3.h
 .\objects\main.o: .\DEVICE\gpio.h
 .\objects\main.o: .\DEVICE\timer3.h
+.\objects\main.o: .\DEVICE\led.h
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\deque.CC
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.CC
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rw/_punct.CC

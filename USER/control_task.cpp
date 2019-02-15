@@ -6,11 +6,11 @@ extern "C"
 #include "spi.h"
 #include "menu2.h"
 #include "gpio.h"
+#include "stdlib.h"
 
 void InitControlTask(void)
 {
-	//InitSwitch();
-	//InitUsart3();
+
 }
 
 u8 k_sta[5] = {1,1,1,1,1};
@@ -40,6 +40,8 @@ void ControlTask(void)
 	else if(!k_sta[4] && old_k_sta[4])
 		pushed_key = Menu::KAKUNIN;
 	
+	u8 a = rand() % pushed_key;
+	//menu_ptr->Move(a);
 	menu_ptr->Move(pushed_key);
 	
 	old_k_sta[0] = k_sta[0];
