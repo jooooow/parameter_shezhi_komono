@@ -14,7 +14,7 @@ typedef struct _KomonoCmdParser
 {
 	void(*Reset)(_KomonoCmdParser* self);
 	void(*SetCmd)(_KomonoCmdParser* self, const char* cmd);
-	int(*GetRecvCmdLen)(_KomonoCmdParser* self);
+	int(*GetRecvCmdPathDepth)(_KomonoCmdParser* self);
 	char(*IsPathMatch)(_KomonoCmdParser* self, const char* path);
 	char(*DataCheck)(_KomonoCmdParser* self);
 	char(*PushCmdChar)(_KomonoCmdParser* self, char ch);
@@ -59,7 +59,7 @@ int KomonoGetRecvCmdPathDepth(KomonoCmdParser* self)
 
 char KomonoIsPathMatch(KomonoCmdParser* self, const char* path)
 {
-	int recv_path_depth = self->GetRecvCmdLen(self);
+	int recv_path_depth = self->GetRecvCmdPathDepth(self);
 	memcpy(self->recv_cmd_path, self->recv_cmd + 5, recv_path_depth);
 	if (strcmp(path, self->recv_cmd_path))
 		return 0;
