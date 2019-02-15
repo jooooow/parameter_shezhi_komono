@@ -1,3 +1,7 @@
+/*
+	@author : jooooow
+	@description : a struct to parse the cmd from komono
+*/
 #pragma once
 #include "string.h"
 #include "stdlib.h"
